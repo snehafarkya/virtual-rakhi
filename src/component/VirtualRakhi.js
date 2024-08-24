@@ -53,9 +53,9 @@ function VirtualRakhi() {
   };
 
   return (
-    <div className="flex justify-center flex-col w-fit mx-auto items-center py-10 gap-6">
+    <div className="flex justify-center flex-col md:w-fit w-[380px] mx-auto md:items-center py-10 gap-6">
       <h1 className="text-3xl  font-semibold">Send this virtual rakhi to your <span className="uppercase font-bold text-amber-900">siblings!</span></h1>
-      <div className="flex justify-center items-center gap-4">
+      <div className="flex md:justify-center md:items-center gap-4">
       <input
         type="text"
         value={text}
@@ -74,7 +74,7 @@ function VirtualRakhi() {
         className="rounded-xl"
         
       />
-      <button onClick={handleDownload} className="bg-amber-950 border-2 border-amber-950  text-white p-2 rounded-md shadow-xl hover:bg-amber-900">
+      <button onClick={handleDownload} className="bg-amber-950 border-2 w-fit mx-auto border-amber-950  text-white p-2 rounded-md shadow-xl hover:bg-amber-900">
         Download Image
       </button>
     </div>
