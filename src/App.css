@@ -1,6 +1,12 @@
 .App {
   text-align: center;
 }
+body, .App{
+  background-image: url("https://images.pexels.com/photos/7130560/pexels-photo-7130560.jpeg?cs=srgb&dl=pexels-codioful-7130560.jpg&fm=jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
 
 .App-logo {
   height: 40vmin;
